@@ -73,8 +73,3 @@ FRP composites degrade progressively under fatigue, leading to a decline in thei
 - Dataset: [Residual Fatigue Strength GitHub Repository](https://github.com/Dewa1989/Residual-Fatigue-Strength/tree/main)
 
 ---
-
-## Author
-
-**Tanishka Khandelwal**
-
