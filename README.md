@@ -2,11 +2,11 @@
 
 This project aims to predict the **residual strength** of **Fiber-Reinforced Polymer (FRP)** composites subjected to **cyclic (fatigue) loading** using a combination of traditional modeling approaches and machine learning techniques.
 
-## 🔍 Problem Overview
+## Problem Overview
 
 FRP composites degrade progressively under fatigue, leading to a decline in their load-bearing capacity—referred to as residual strength. Accurately predicting this decline is critical for ensuring structural safety and integrity.
 
-## 🧠 Prediction Methods Explored
+## Prediction Methods Explored
 
 1. **Empirical Models** – Fit experimental data using power-law equations.
 2. **Damage Mechanics Models** – Use damage variables to model degradation.
@@ -14,7 +14,7 @@ FRP composites degrade progressively under fatigue, leading to a decline in thei
 4. **Micromechanical Models** – Simulate fiber/matrix behavior and interactions.
 5. **Machine Learning** – Data-driven prediction using stress levels, cycles, and material properties.
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 - **Source**: [GitHub Research Dataset](https://github.com/Dewa1989/Residual-Fatigue-Strength/tree/main)
 - **File**: `Residual_Fatigue.csv`
@@ -26,7 +26,7 @@ FRP composites degrade progressively under fatigue, leading to a decline in thei
   - Fatigue Cycles, Normalized Fatigue Life
 - **Target**: Residual Strength
 
-## 🧪 Methodology
+## Methodology
 
 1. **Material Selection**: Define composite and layup (e.g., [0/90], ASTM D3479).
 2. **Fatigue Testing**: Apply cyclic loads at various stress ratios and record intermediate/final strengths.
@@ -41,7 +41,7 @@ FRP composites degrade progressively under fatigue, leading to a decline in thei
    - Residual strength vs. fatigue cycles
    - Comparison across different configurations
 
-## 🤖 Machine Learning Models Used
+## Machine Learning Models Used
 
 ### 📈 Baseline Regressors
 - Linear Regression
@@ -49,32 +49,32 @@ FRP composites degrade progressively under fatigue, leading to a decline in thei
 - Lasso Regression
 - Elastic Net
 
-### 🌳 Tree-Based Models
+### Tree-Based Models
 - Random Forest Regressor (with GridSearchCV)
 - Gradient Boosting Regressor (with GridSearchCV)
 
-### 🧠 Neural Network
+### Neural Network
 - MLP Regressor (scikit-learn)
 
-## 📉 Graphs & Analysis
+## Graphs & Analysis
 
 1. **Residual Strength vs. Cycles** – Visualizes degradation trend.
 2. **Actual vs. Predicted Plot** – Evaluates regression model accuracy.
 3. **Confusion Matrix** – Categorical classification into High, Medium, Low strength.
 
-## 📂 Project Files
+## Project Files
 
 - `ML Project Report.docx` – Full technical report
 - `Research article.pdf` – Reference material
 - `Residual_Fatigue.csv` – Dataset
 
-## 📚 References
+## References
 
 - Dataset: [Residual Fatigue Strength GitHub Repository](https://github.com/Dewa1989/Residual-Fatigue-Strength/tree/main)
 
 ---
 
-## 📌 Author
+## Author
 
 **Tanishka Khandelwal**
 
