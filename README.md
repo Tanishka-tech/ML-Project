@@ -1,4 +1,4 @@
-# Residual Strength Prediction in FRP Composites under Fatigue
+# Residual Strength Prediction in FRP Composites
 
 This project aims to predict the **residual strength** of **Fiber-Reinforced Polymer (FRP)** composites subjected to **cyclic (fatigue) loading** using a combination of traditional modeling approaches and machine learning techniques.
 
