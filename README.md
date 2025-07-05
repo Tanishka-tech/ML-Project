@@ -43,7 +43,7 @@ FRP composites degrade progressively under fatigue, leading to a decline in thei
 
 ## Machine Learning Models Used
 
-### 📈 Baseline Regressors
+### Baseline Regressors
 - Linear Regression
 - Ridge Regression
 - Lasso Regression
